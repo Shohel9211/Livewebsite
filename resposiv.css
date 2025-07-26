@@ -1,0 +1,39 @@
+@media only screen and (max-width: 595px) {
+  body {
+    margin: 0 15px;
+  }
+  .nav-menu ul {
+    flex-direction: column;
+  }
+  .header-contaiters {
+    flex-direction: column;
+  }
+  .hero-tex {
+    max-width: 350px;
+  }
+  .hero-containers {
+    flex-direction: column;
+  }
+  .about-section {
+    flex-direction: column;
+  }
+  .servic-items {
+    flex-direction: column;
+  }
+  .protfulio-items {
+    flex-direction: column;
+  }
+  .protfolio-nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .testomonilas {
+    flex-direction: column;
+  }
+  .foter-nav ul {
+    flex-direction: column;
+  }
+  .news-tailel {
+    justify-content: center;
+  }
+}
