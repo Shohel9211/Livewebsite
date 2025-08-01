@@ -1,13 +1,13 @@
-@media only screen and (max-width: 595px) {
+@media only screen and (max-width: 695px) {
   body {
-    margin: 0 auto;
-    max-width:450px;
+    margin: 0 15px;
+    padding: 15px 15px;
   }
   .nav-menu ul {
     flex-direction: column;
   }
   .header-contaiters {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
   .hero-tex {
     max-width: 350px;
@@ -19,23 +19,28 @@
     flex-direction: column;
   }
   .servic-items {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
   .protfulio-items {
     flex-direction: column;
   }
   .protfolio-nav ul {
     flex-direction: column;
-    alin-item:center
     align-items: center;
   }
   .testomonilas {
     flex-direction: column;
   }
+  .newsltter-from input {
+    max-width: 350px;
+  }
+  .news-tailel {
+    max-width: 450px;
+  }
   .foter-nav ul {
     flex-direction: column;
   }
   .news-tailel {
-    justify-content: center;
+    flex-direction: column;
   }
 }
